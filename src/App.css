@@ -1,0 +1,33 @@
+.landing {
+  background: rgba(0, 0, 0, 0.95);
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0px 150px;
+  min-height: 100vh;
+}
+
+.landing::before {
+  content: "";
+  position: absolute;
+  background-color: white;
+  bottom: 0%;
+  left: 0%;
+  height: 150px;
+  width: 100%;
+}
+
+.content {
+  min-height: 100vh;
+  padding: 0px 150px 100px 150px;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+}
+
+.block.top {
+  margin-top: 95px;
+}
+

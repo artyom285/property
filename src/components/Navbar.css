@@ -1,0 +1,65 @@
+.Navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    padding: 0px 150px;
+    font-size: 15px;
+    height: 100px;
+    width: 100%;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.Navbar.active {
+    background-color: black;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+    height: 80px;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 27px;
+}
+
+.Navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-left: 100px;
+}
+
+.Navbar ul li a {
+    color: white;
+    position: relative;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Navbar ul li a::before {
+    background-color: white;
+    content: "";
+    position: absolute;
+    height: 1.5px;
+    width: 0%;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.Navbar ul li a:hover::before {
+    width: 100%;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 25px;
+}
+
+.nav-icons i {
+    display: flex;
+    cursor: pointer;
+}
+
