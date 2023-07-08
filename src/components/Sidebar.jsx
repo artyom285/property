@@ -31,15 +31,15 @@ function Sidebar({ effect, side }) {
               <box-icon name='user-circle' color="white"></box-icon>
               <span>Account</span>
             </a>
-            <a href="#residences" onClick={side}>
+            <a href="#" onClick={side}>
               <box-icon name='bookmarks' color="white"></box-icon>
               <span>Bookmarks</span>
             </a>
-            <a href="#value" onClick={side}>
+            <a href="#" onClick={side}>
               <box-icon name='compass' color="white"></box-icon>
               <span>Search</span>
             </a>
-            <a href="#contact" onClick={side}>
+            <a href="#" onClick={side}>
               <box-icon name='map' type="solid" color="white"></box-icon>
               <span>Locations</span>
             </a>
