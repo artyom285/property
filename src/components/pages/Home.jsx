@@ -1,10 +1,10 @@
 import React from 'react';
-import HomeCenter from './HomeCenter';
-import HomePick from './HomePick';
-import HomeValue from './HomeValue';
-import HomeContact from './HomeContact';
-import Subscribe from './Subscribe';
-import Footer from '../../components/Footer';
+import HomeCenter from "../home/HomeCenter"
+import HomePick from '../home/HomePick';
+import HomeValue from '../home/HomeValue';
+import HomeContact from '../home/HomeContact';
+import Subscribe from '../home/Subscribe';
+import Footer from "../Footer";
 
 function Home() {
   return (
