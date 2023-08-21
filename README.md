@@ -15,3 +15,9 @@ Property consultant single-page website built by using ReactJS. The website incl
 
 * Download or clone the repository
 * Run ```npm run dev```
+
+## Links
+
+* [Final result](https://property285.netlify.app/)
+* [Icons](https://boxicons.com/)
+* [Media files resource](https://unsplash.com/)
