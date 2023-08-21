@@ -14,4 +14,4 @@ Property consultant single-page website built by using ReactJS. The website incl
 ## Setup
 
 * Download or clone the repository
-* Run npm run dev
+* Run ```npm run dev```
