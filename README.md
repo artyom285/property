@@ -2,4 +2,5 @@
 
 # Property
 
-Property consultant single-page website built by using ReactJS. The website includes pages like Home, Residences, Values, and Contact Us.
+Property consultant single-page website built by using ReactJS. The website includes pages like Home, Residences, Values, and Contact Us. Responsive functionality and sidebar navigation are provided on the website as well, depending on screen size. Additional technologies and techniques involved in the development process are:
+
