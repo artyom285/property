@@ -6,5 +6,7 @@ Property consultant single-page website built by using ReactJS. The website incl
 
 * Boxicons;
 * React Hooks (useState hook);
+* Props;
 * Flexbox;
 * CSS Grid;
+* Reusable components;
